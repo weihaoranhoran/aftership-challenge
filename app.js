@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 // MongoDB connection
 mongoose.Promise = global.Promise;
-const MONGODB = 'mongodb://localhost/sfmovies2';
+const MONGODB = 'mongodb://localhost/sfmovies';
 mongoose.connect(MONGODB)
 	.then(function(con) {
 		console.log("Successfully connected to Database");
