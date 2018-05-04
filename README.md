@@ -8,9 +8,9 @@ Description
 
 This application provides the function of searching Movies that had been shot in San Francisco and show specific locations on the google map.
  
-
-
+ 
 Solution
+
 This is a full-stack solution,but backend focused. On the startup connect to the database and if it is empty, fetch data from remote API and save both movies and locations in to the database,updata the database with Agenda module on a weekly basis.
 When typing movies in the panel, automatic suggestions show up, which is achieved from a simple autocomplete search method in the backend. After the user selected a movie the server will send back the geolocations of the movie including name of location as well as Lat and Lng information of the location.
    
