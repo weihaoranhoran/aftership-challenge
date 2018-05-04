@@ -6,7 +6,6 @@ const MovieSchema = new Schema({
 		type: String,
 		index: 1
 	},
-	// actors: [ObjectId],
 	director: {
 		type: String,
 		index: 1
